@@ -26,8 +26,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
         readArgs(args);
         System.out.println("Program workflow: ");
+
         File filePath = enterInputFilePath();
         System.out.println("Step 1: File input.csv exists. Path: " + filePath);
+
         String paramForSorting = enterParamForSorting();
         System.out.println("Step 2: Selected sorting parameter: " + paramForSorting);
 
