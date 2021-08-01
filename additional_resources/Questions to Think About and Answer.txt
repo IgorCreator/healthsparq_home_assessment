@@ -1,0 +1,8 @@
+1.	In your opinion, what’s helpful about version control systems? What’s annoying about them?
+A:
+
+2.	What are some pros and cons of using Docker to develop, test, and deploy software?
+A:
+
+3.	How do you choose which language to use for a given task?  How did you choose the language?
+A:
