@@ -6,3 +6,6 @@ A:
 
 3.	How do you choose which language to use for a given task?  How did you choose the language?
 A:
+
+4.	Explain in detail why Gherkin tests might be helpful in the future.
+A:
