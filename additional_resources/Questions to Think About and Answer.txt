@@ -1,11 +1,49 @@
 1.	In your opinion, what’s helpful about version control systems? What’s annoying about them?
-A:
+Answer:
+1) With version control you have complete long-term change history of every file. So you can see who created it or who changed it.
+2) One developer on the team may be working on a new feature while another developer fixes an unrelated bug by changing code, - i.e. independent streams of changes
+3) Branching project for each feature
+So, version control helps teams solve such kinds of problems as
+tracking every individual change by each contributor and helping prevent concurrent work from conflicting.
+
+Annoying things in version controls:
+1)Merging functionality and resolving conflicts. Sometimes it is really complicated to make proper merge.
+With this potential bug risk growth exponentially.
+2) If the main server goes down, and you don't have backups - developers can't save versioned changes.
+3) If the central repo is corrupted and you don't have backups, the entire history could be lost
 
 2.	What are some pros and cons of using Docker to develop, test, and deploy software?
-A:
+Answer:
+
+Pro:
+Consistency - same way across multiple environments. Project looks the same way, regardless of the server
+Automation  - docker allows to schedule a range of tasks to occur when they are needed, without manual intervention. And overall it is speeds up the provisioning process.
+Stability   - environment remains stable on any system or device.
+Saves Space - containers only use the code for the app and its dependencies and can run entirely on the Cloud,
+              meaning they are much smaller and negate the requirement for large, physical servers
+Cons:
+a) to many updates sometimes. Can lead to constant system updates and sometimes documentation doesn’t always update as quickly as the technology.
+b) learning curve - need time for developers to transfer on new way of system vision
+c) networking complications - sometimes can't use in case you need connection with actual physical device.
+                              For example: as each new created VM can have different ip. The production physical device needs all the time update ip filtering
+d) if using multiple containers in one server, should be aware of which containers are running on the same kernel.
+
 
 3.	How do you choose which language to use for a given task?  How did you choose the language?
-A:
+Answer:
+a) App type and business requirements - web applications, mobile applications, embedded firmware, etc.
+b) App size and complexity - Is it personal page site, or chat delivery engine.
+c) Company culture and time for learning curve - If company has preferences and if it allows to try something new.
+d) Maintainability - language support, community, ecosystem of libraries, vendor supports
+e) Scalability and performance - more about a technology stack. Example: Java Spring, .NET, etc.
+f) Security - increase app robustness
+g) Simplicity - C much more complicated then Python or Java
+k) Compatibility with already created environment
 
-4.	Explain in detail why Gherkin tests might be helpful in the future.
-A:
+
+4.	Explain why Gherkin tests might be helpful in the future.
+Answer:
+It is a link between business people and developer.
+Without knowing deep programming knowledge people able set for teams tasks and customer requirements.
+Behavior-driven development (BDD) can help teams build better software by making them carefully
+specify the product’s behaviors using plain-language examples.
